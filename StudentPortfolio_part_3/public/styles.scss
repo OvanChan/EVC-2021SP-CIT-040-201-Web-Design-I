@@ -1,0 +1,179 @@
+/* 
+    Author: Gabriel Solomon, 2021
+    Adapted by: Ovan Chan
+
+    please feel free to edit these comments.  Thank you! 
+*/
+
+// main colors for the web page
+$bkg-color: #673e37;
+$banner-color: #a79086;
+$border-color: #6d031c;
+$light-primary-color: #d2d2c9;
+
+$font-color: #1b1210;
+
+
+body {
+    background-color: $bkg-color;
+}
+
+h1 {
+    background-color: $light-primary-color; 
+    color: $font-color; 
+    margin: 20px; 
+    padding: 20px
+}
+
+h2 {
+    background-color: $light-primary-color; 
+    color: $font-color; 
+    margin: 20px; 
+    padding: 20px
+}
+
+h6 {
+    background-color: $light-primary-color; 
+    color: $font-color; 
+    margin: 20px; 
+    padding: 20px
+}
+p {
+    background-color: $light-primary-color; 
+    color: $font-color; 
+    font-size: 140%;
+    margin: 20px; 
+    padding: 10px
+}
+
+
+.box1 {
+    width: auto;
+    height: 100px;
+    border: 3px solid $border-color;
+    background-color:$light-primary-color;
+    padding: 20px;
+    margin: 20px;
+  }
+
+.box2 {
+    width: auto;
+    height: 80px;
+    border: 3px solid $border-color;
+    background-color:$light-primary-color;
+    margin: 20px;
+    padding:5px;
+  }
+
+
+  .fixedbox {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid $border-color;
+    background-color:$light-primary-color;
+  }
+
+
+.banner {
+    border: 5px outset #6d031c;
+    background-color: #a79086; 
+    margin: 18px;   
+}
+
+
+
+// .header {
+//     background-color: $primary-color;
+//     padding: 30px;
+// }
+
+// #headerImage {
+//     height: 70px;
+//     border-style: solid;
+//     border-color: grey;
+//     border-width: 1px;
+// }
+
+
+// .dogImage {
+//     width: 200px;
+//     padding: 10px;
+//     margin: 10px;
+//     border: solid;
+//     border-color: $primary-color;
+// }
+
+
+// sass test
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.rowA {
+    margin: 20px;
+    padding: 30px;
+}
+
+.rowDog {
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+}
+
+.colLetter {
+    align-items: flex-end;
+}
+
+//
+// flexbox definitions
+// students should not need to adjust these and your flebox should work
+// as a responsive layout for multiple devices
+//
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+// //
+// // test background colors
+// // students can add other colors, but should not need to adjust these
+// //
+// .test-red {
+//     background-color: red;
+// }
+
+// .test-yellow {
+//     background-color: yellow;
+// }
+
+// .test-blue {
+//     background-color: blue;
+// }
+
+// .test-orange {
+//     background-color: orange;
+// }
+
+// .test-pink {
+//     background-color: pink;
+// }
+
+// .test-green {
+//     background-color: green;
+// }
+
