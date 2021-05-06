@@ -1,17 +1,17 @@
 /* 
     Author: Gabriel Solomon, 2021
-    this is a multi-line comment in SASS. this information is not rendered.
-    Several of the comments below are single-line comments.  
-    student html should include some of your own comments/notes per the grading rubric. 
+    Adapted by: Ovan Chan
 
     please feel free to edit these comments.  Thank you! 
 */
 
 // main colors for the web page
-$primary-color: #c6538c;
-$dark-primary-color: #6d0e3e;
-$light-primary-color: lightpink;
-$header-color: white;
+$bkg-color: #673e37;
+$banner-color: #a79086;
+$border-color: #6d031c;
+$light-primary-color: #d2d2c9;
+
+$font-color: #1b1210;
 
 .header {
     background-color: $primary-color;
