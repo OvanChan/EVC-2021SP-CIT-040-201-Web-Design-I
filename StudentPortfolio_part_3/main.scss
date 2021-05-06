@@ -1,0 +1,108 @@
+/* 
+    Author: Gabriel Solomon, 2021
+    this is a multi-line comment in SASS. this information is not rendered.
+    Several of the comments below are single-line comments.  
+    student html should include some of your own comments/notes per the grading rubric. 
+
+    please feel free to edit these comments.  Thank you! 
+*/
+
+// main colors for the web page
+$primary-color: #c6538c;
+$dark-primary-color: #6d0e3e;
+$light-primary-color: lightpink;
+$header-color: white;
+
+.header {
+    background-color: $primary-color;
+    padding: 30px;
+}
+
+#headerImage {
+    height: 70px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+
+
+.dogImage {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: solid;
+    border-color: $primary-color;
+}
+
+
+// sass test
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.rowA {
+    margin: 20px;
+    padding: 30px;
+}
+
+.rowDog {
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+}
+
+.colLetter {
+    align-items: flex-end;
+}
+
+//
+// flexbox definitions
+// students should not need to adjust these and your flebox should work
+// as a responsive layout for multiple devices
+//
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+//
+// test background colors
+// students can add other colors, but should not need to adjust these
+//
+.test-red {
+    background-color: red;
+}
+
+.test-yellow {
+    background-color: yellow;
+}
+
+.test-blue {
+    background-color: blue;
+}
+
+.test-orange {
+    background-color: orange;
+}
+
+.test-pink {
+    background-color: pink;
+}
+
+.test-green {
+    background-color: green;
+}
+
