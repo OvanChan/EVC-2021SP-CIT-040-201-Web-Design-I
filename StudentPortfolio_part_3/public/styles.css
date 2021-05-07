@@ -15,6 +15,11 @@ h1 {
   padding: 20px;
 }
 
+.nopad h1 {
+  background-color: #d2d2c9;
+  color: #1b1210;
+}
+
 h2 {
   background-color: #d2d2c9;
   color: #1b1210;
@@ -29,6 +34,10 @@ h6 {
   padding: 20px;
 }
 
+a {
+  color: #6d031c;
+}
+
 p {
   background-color: #d2d2c9;
   color: #1b1210;
@@ -39,11 +48,12 @@ p {
 
 .mainlink a {
   color: #6d031c;
-  font-size: min(4vw, 30px);
+  font-size: calc(min(4vw, 30px));
 }
 
 .mainlink p {
-  font-size: min(4vw, 30px);
+  color: #6d031c;
+  font-size: calc(min(4vw, 30px));
 }
 
 .box1 {
@@ -79,6 +89,32 @@ p {
   border: 5px outset #6d031c;
   background-color: #a79086;
   margin: 18px;
+}
+
+#backarrow {
+  width: 20px;
+  height: 20px;
+}
+
+#centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  position: relative;
+  width: 70%;
+  height: 0;
+  padding-bottom: 50%;
+}
+
+.video {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 95%;
+  height: 70%;
 }
 
 .box {
