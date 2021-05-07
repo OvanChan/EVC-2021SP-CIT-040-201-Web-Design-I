@@ -12,6 +12,7 @@ $border-color: #6d031c;
 $light-primary-color: #d2d2c9;
 
 $font-color: #1b1210;
+$link-font-color: #6d031c;
 
 
 body {
@@ -38,6 +39,11 @@ h6 {
     margin: 20px; 
     padding: 20px
 }
+
+a {
+    color: $link-font-color;
+}
+
 p {
     background-color: $light-primary-color; 
     color: $font-color; 
@@ -46,8 +52,18 @@ p {
     padding: 10px
 }
 
+.mainlink a {
+    color: $link-font-color;
+    font-size: min(4vw, 30px);    
+}
+
+.mainlink p {
+    color: $link-font-color;
+    font-size: min(4vw, 30px);
+}
 
 .box1 {
+    justify-content: space-around;
     width: auto;
     height: 100px;
     border: 3px solid $border-color;
@@ -82,7 +98,10 @@ p {
     margin: 18px;   
 }
 
-
+#backarrow {
+    width:20px; 
+    height:20px;
+}
 
 // .header {
 //     background-color: $primary-color;
